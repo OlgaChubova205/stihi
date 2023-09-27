@@ -68,7 +68,7 @@ li a {
 }
 
 .stars {
-    background-image: url(/img/leaves.gif);
+    background-image: url(/stihi/img/leaves.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -86,16 +86,16 @@ li a {
 }
 
 .page3 {
-    background-image: url(/img/misli.jpg);
+    background-image: url(/stihi/img/misli.jpg);
 
 }
 
 .page1 {
-    background-image: url(/img/vremia_letit.jpg);
+    background-image: url(/stihi/img/vremia_letit.jpg);
 
 }
 
 .page2 {
-    background-image: url(/img/tolko_seichas.jpg);
+    background-image: url(/stihi/img/tolko_seichas.jpg);
     background-position: center bottom;
 }
