@@ -1,0 +1,101 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+main {
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 20px;
+}
+
+li {
+    margin-top: 20px;
+}
+
+.main-content {
+    position: relative;
+
+
+    height: 100%;
+}
+
+li a {
+    font-size: 24px;
+    color: #2f272a;
+}
+
+.image img {
+    width: 100%;
+
+}
+
+.image {
+    width: 50%;
+    height: 80%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+
+.image a {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.5);
+    color: #2f272a;
+    border-radius: 10px;
+}
+
+.stars {
+    background-image: url(/img/leaves.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poem {
+    color: #2f272a;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.page3 {
+    background-image: url(/img/misli.jpg);
+
+}
+
+.page1 {
+    background-image: url(/img/vremia_letit.jpg);
+
+}
+
+.page2 {
+    background-image: url(/img/tolko_seichas.jpg);
+    background-position: center bottom;
+}
