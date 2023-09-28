@@ -99,3 +99,23 @@ li a {
     background-image: url(/stihi/img/tolko_seichas.jpg);
     background-position: center bottom;
 }
+@media(max-width: 768px){
+    .container {
+        width: 100%;
+    
+        
+    }
+    .main-content{
+        height: fit-con;
+        
+    }
+    .page{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+        height: 400px;
+        margin-top: 15px;
+    }
+    
+}
