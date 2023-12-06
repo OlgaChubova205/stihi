@@ -199,3 +199,10 @@ nav button{
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
 }
+nav img{
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    width: 60px;
+    height: 60px;
+}
