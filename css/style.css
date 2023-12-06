@@ -2,7 +2,28 @@ body {
     background-color: aquamarine;
     margin: 0;
     font-family: 'Lobster', cursive;
+    background-image: url(/img/leaves.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
+nav{
+    text-align: center;
+    background-color: rgba(241, 91, 23, 0.5);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 37px;
+    padding-top: 2px;
+   
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+}
+
 
 .container {
     width: 1100px;
@@ -11,7 +32,7 @@ body {
 }
 
 main {
-    height: 100vh;
+   height: 100%;
 }
 
 ul {
@@ -19,21 +40,21 @@ ul {
     margin: 0;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
     border-radius: 20px;
+    
 }
 
 li {
     margin-top: 20px;
+    
 }
 
 .main-content {
-    position: relative;
-
-
+    display: flex;
     height: 100%;
+    justify-content: center;
+    align-items: center;
+
 }
 
 li a {
@@ -68,9 +89,7 @@ li a {
 }
 
 .stars {
-    background-image: url(/stihi/img/leaves.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 .page {
@@ -80,23 +99,26 @@ li a {
 }
 
 .poem {
-    color: #2f272a;
+    color: #000000;
     font-weight: 300;
     letter-spacing: 2px;
+    background-color: rgba(241, 91, 23, 0.5);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .page3 {
-    background-image: url(/stihi/img/misli.jpg);
+    background-image: url(/img/misli.jpg);
 
 }
 
 .page1 {
-    background-image: url(/stihi/img/vremia_letit.jpg);
+    background-image: url(/img/vremia_letit.jpg);
 
 }
 
 .page2 {
-    background-image: url(/stihi/img/tolko_seichas.jpg);
+    background-image: url(/img/tolko_seichas.jpg);
     background-position: center bottom;
 }
 @media(max-width: 768px){
@@ -105,6 +127,7 @@ li a {
     
         
     }
+
     .main-content{
         height: fit-con;
         
@@ -117,5 +140,62 @@ li a {
         height: 400px;
         margin-top: 15px;
     }
+
     
+}
+
+footer{
+    background-color: rgba(241, 91, 23, 0.5);
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+}
+footer p{
+    color: #000000;
+    font-size: 15px;
+    margin-top: 8px;
+   
+}
+
+main p{
+    padding: 10px;
+    border-radius: 20px;
+}
+main input{
+    padding: 10px;
+    font-size: 20px;
+    font-family: inherit;
+    min-width: 400px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+main button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+nav input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: inherit;
+    border-radius: 8px;
+}
+nav button{
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
 }
