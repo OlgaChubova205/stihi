@@ -2,7 +2,7 @@ body {
     background-color: aquamarine;
     margin: 0;
     font-family: 'Lobster', cursive;
-    background-image: url(/img/leaves.gif);
+    background-image: url(img/leaves.gif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -108,17 +108,17 @@ li a {
 }
 
 .page3 {
-    background-image: url(/img/misli.jpg);
+    background-image: url(img/misli.jpg);
 
 }
 
 .page1 {
-    background-image: url(/img/vremia_letit.jpg);
+    background-image: url(img/vremia_letit.jpg);
 
 }
 
 .page2 {
-    background-image: url(/img/tolko_seichas.jpg);
+    background-image: url(img/tolko_seichas.jpg);
     background-position: center bottom;
 }
 @media(max-width: 768px){
